@@ -30,7 +30,7 @@ def stat_by_group(grouped_theater_data, category, stat):
     return stat_by_group
 
 def top_n_category(dataframe, n, category):
-    return dataframe[category].value_counts()[0:n]def top_n_category(dataframe, n, category):
+    return dataframe[category].value_counts()[0:n]
 
 
 
